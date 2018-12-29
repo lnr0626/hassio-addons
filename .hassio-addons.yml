@@ -1,4 +1,8 @@
 ---
 channel: stable
-addons: {}
+addons:
+  insteon-mqtt:
+    repository: TD22057/insteon-mqtt
+    target: hassio
+    image: lnr0626/{arch}-insteon-mqtt
 
